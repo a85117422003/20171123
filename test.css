@@ -1,0 +1,80 @@
+/*版面規劃*/
+body {
+	/*整體留天留左右*/
+	margin: 24px 10px;
+	font-family:Arial,'微軟正黑體',sans-serif;
+}
+
+#container {
+	widows: 960px; 
+	margin: auto;
+}
+
+header {
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+/*main*/
+#TOP_NEWS {
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+#OLD_NEWS {
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+
+
+
+/*細節設計*/
+
+/*靠左對齊*/
+#banner {
+	float: left;
+}
+
+#banner h1 {
+	margin: 0;
+}
+
+#banner img {
+	/*向下對齊*/
+	vertical-align: bottom;
+	/*三分法寬度*/
+	width: 332px;
+}
+
+nav {
+	/*靠右對齊*/
+	float: right;
+	font-size: 16pt;
+	font-family: 'Berkshire Swash', cursive;
+	padding-top: 30px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	list-style-type: none;
+	float: left;
+}
+
+nav li a {
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-bottom: solid 3px transparent;
+    color: #000000;
+}
+
+nav li a:hover {
+    border-bottom-color: #ff1e97;
+}
